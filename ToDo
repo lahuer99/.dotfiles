@@ -1,0 +1,18 @@
+bash
+    -
+
+vim
+    - change lineNr highlight color to white(?)
+
+pwsh
+    - ls stuff
+        {
+            - -directory failing
+            - ls coloring(darkcyan for dir)
+            - setup flags functionality
+            - newlines at top n bottom
+        }
+    - $host settings customize
+    - main pc details func
+    - get network info
+    - nmap?
