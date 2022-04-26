@@ -1,15 +1,24 @@
 "set rtp+=$HOME\vimfiles
 syntax on
-
-call plug#begin('$HOME\vimfiles\plugged')
+call plug#begin()
 Plug 'morhetz/gruvbox'
+Plug 'doums/darcula'
+Plug 'haystackandroid/snow'
+Plug 'preservim/nerdtree'
 call plug#end()
 
-colors gruvbox
 set background=dark
+colorscheme gruvbox
 
 set number
+highlight LineNr ctermfg=DarkGray
+
 set ruler
+set showmode
+
+hi CursorLineNr cterm=bold term=bold
+set cursorline
+set cursorlineopt=number
 
 set smartindent
 
@@ -27,4 +36,5 @@ set nowritebackup
 set belloff=all
 
 set incsearch
+
 set backspace=indent,eol,start
